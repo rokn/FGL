@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/FGL.dir/src/Application.cpp.o CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.o CMakeFiles/FGL.dir/src/GameHandler.cpp.o CMakeFiles/FGL.dir/src/UpdateInfo.cpp.o CMakeFiles/FGL.dir/src/main.cpp.o  -o FGL -lsfml-network -lsfml-audio -lsfml-graphics -lsfml-window -lsfml-system 

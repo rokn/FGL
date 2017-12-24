@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FGL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/rokner/Programming/FGL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/rokner/Programming/FGL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/rokner/Programming/FGL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FGL">
+				<Option output="/home/rokner/Programming/FGL/cmake-build-debug/FGL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rokner/Programming/FGL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rokner/Programming/FGL/src"/>
+					<Add directory="/home/rokner/Programming/FGL/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 FGL"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FGL/fast">
+				<Option output="/home/rokner/Programming/FGL/cmake-build-debug/FGL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rokner/Programming/FGL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rokner/Programming/FGL/src"/>
+					<Add directory="/home/rokner/Programming/FGL/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 FGL/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/rokner/Programming/FGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/rokner/Programming/FGL/include/Application.h">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/Config.h">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/FloatingNetwork.h">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/GameHandler.h">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/UpdateInfo.h">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/typedefs.h">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/Application.cpp">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/FloatingNetwork.cpp">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/GameHandler.cpp">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/UpdateInfo.cpp">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/main.cpp">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/cmake/Modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
