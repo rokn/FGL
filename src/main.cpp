@@ -1,23 +1,29 @@
 #include <FloatingNetwork.h>
+#include <initium_novum/World.h>
 #include "Application.h"
 
 int main() {
+    srand(time(NULL));
     Config config;
     config.windowWidth = 1000;
     config.windowHeight = 800;
     config.appName = "FGL";
     config.antialiasLevel = 4;
 
-    Application *application = new Application(config);
+    auto *application = new Application(config);
 
     sf::Rect<int> area(0, 0, config.windowWidth, config.windowHeight);
-    FloatingNetwork *network = new FloatingNetwork(area, 69, 1200);
+    auto *network = new FloatingNetwork(area, 300, 30);
 
     application->registerHandler(network);
 
+//    auto *world = new in::World(area);
+//
+//    application->registerHandler(world);
+
     int exitCode = application->run();
 
-
+//    delete world;
     delete network;
     delete application;
 

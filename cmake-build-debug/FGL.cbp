@@ -100,7 +100,22 @@
 		<Unit filename="/home/rokner/Programming/FGL/include/GameHandler.h">
 			<Option target="FGL"/>
 		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/MathHelpers.h">
+			<Option target="FGL"/>
+		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/include/UpdateInfo.h">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/initium_novum/BasicFood.h">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/initium_novum/BasicFoodGenerator.h">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/initium_novum/Entity.h">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/initium_novum/World.h">
 			<Option target="FGL"/>
 		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/include/typedefs.h">
@@ -115,7 +130,22 @@
 		<Unit filename="/home/rokner/Programming/FGL/src/GameHandler.cpp">
 			<Option target="FGL"/>
 		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/MathHelpers.cpp">
+			<Option target="FGL"/>
+		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/src/UpdateInfo.cpp">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/initium_novum/BasicFood.cpp">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/initium_novum/BasicFoodGenerator.cpp">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/initium_novum/Entity.cpp">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/initium_novum/World.cpp">
 			<Option target="FGL"/>
 		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/src/main.cpp">

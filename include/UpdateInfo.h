@@ -10,12 +10,11 @@
 
 class UpdateInfo {
 public:
-    const sf::Time& getElapsedTime() const;
     float elapsedSeconds() const;
-    void setElapsedTime(const sf::Time &deltaSeconds);
+    void setElapsedTime(float delta);
 
 private:
-    sf::Time elapsed;
+    float delta;
 };
 
 

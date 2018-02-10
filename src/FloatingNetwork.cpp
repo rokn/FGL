@@ -5,7 +5,7 @@
 #include "FloatingNetwork.h"
 
 FloatingNetwork::FloatingNetwork(const sf::Rect<int> &area, float proximity, uint objectCount):
-_area(area), _proximity(proximity*proximity)
+        _area(area), _proximity(proximity*proximity)
 {
     generateObjects(objectCount);
     registerAsHandler(UPDATE_HANDLER);
@@ -28,7 +28,7 @@ void FloatingNetwork::update(const UpdateInfo &info) {
             auto from = (*it)->getShape().getPosition();
             auto to = (*ot)->getShape().getPosition();
             float distSqr = getDistance(from, to);
-            
+
             if(distSqr < _proximity) {
                 Line line;
                 line.setFrom(from);

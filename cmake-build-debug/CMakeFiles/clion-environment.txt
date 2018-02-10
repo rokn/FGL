@@ -1,2 +1,3 @@
 Options: 
-CMake: 3.7.2@/home/rokner/Installs/clion-2017.1.3/bin/cmake/bin/cmake
+
+Options:

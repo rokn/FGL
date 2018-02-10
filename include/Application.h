@@ -31,7 +31,7 @@ private:
 
     void handleEvents();
 
-    void update(const sf::Time &elapsed);
+    void update(float delta);
 
     void draw();
 };

@@ -4,14 +4,10 @@
 
 #include "UpdateInfo.h"
 
-const sf::Time& UpdateInfo::getElapsedTime() const {
-    return elapsed;
-}
-
-void UpdateInfo::setElapsedTime(const sf::Time &elapsed) {
-    UpdateInfo::elapsed = elapsed;
+void UpdateInfo::setElapsedTime(float delta) {
+    this->delta = delta;
 }
 
 float UpdateInfo::elapsedSeconds() const {
-    return elapsed.asSeconds();
+    return delta;
 }

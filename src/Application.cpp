@@ -2,10 +2,12 @@
 // Created by rokner on 12/23/17.
 //
 
+#include <iostream>
 #include "Application.h"
 
 Application::Application(const Config &config):
-    _clearColor(sf::Color(100, 149, 237)) //Cornflower Blue
+//    _clearColor(sf::Color(100, 149, 237)) //Cornflower Blue
+    _clearColor(sf::Color(50,50,50)) //Cornflower Blue
 {
     sf::ContextSettings settings;
     settings.antialiasingLevel = config.antialiasLevel;
@@ -14,17 +16,31 @@ Application::Application(const Config &config):
                             config.appName,
                             sf::Style::Default,
                             settings);
+    _renderWindow->setVerticalSyncEnabled(true);
 }
 
 int Application::run() {
     _isRunning = true;
 
     sf::Clock elapsedClock;
+    float accumulator = 0.0f;
+    float deltaTime = 0.016;
+    float currentTime;
+    float fps;
 
     while(_renderWindow->isOpen() && _isRunning) {
         handleEvents();
-        update(elapsedClock.getElapsedTime());
-        elapsedClock.restart();
+        currentTime = elapsedClock.restart().asSeconds();
+        accumulator += currentTime;
+        fps = 1.f / currentTime;
+        std::cout << "FPS: " << fps << std::endl;
+
+
+        while(accumulator >= deltaTime) {
+            update(deltaTime);
+            accumulator -= deltaTime;
+        }
+
         draw();
     }
     return 0;
@@ -78,9 +94,9 @@ void Application::exit() {
     _isRunning = false;
 }
 
-void Application::update(const sf::Time &elapsed) {
+void Application::update(float delta) {
     UpdateInfo info;
-    info.setElapsedTime(elapsed);
+    info.setElapsedTime(delta);
     for(auto handler : _updateHandlers) {
         handler->update(info);
     }

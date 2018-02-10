@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -30,13 +30,41 @@ SFML/Graphics.hpp
 UpdateInfo.h
 ../include/UpdateInfo.h
 
+../include/MathHelpers.h
+
 ../include/UpdateInfo.h
 SFML/System.hpp
 -
 
+../include/initium_novum/BasicFood.h
+Entity.h
+../include/initium_novum/Entity.h
+
+../include/initium_novum/BasicFoodGenerator.h
+functional
+-
+Entity.h
+../include/initium_novum/Entity.h
+
+../include/initium_novum/Entity.h
+SFML/System.hpp
+-
+SFML/Graphics.hpp
+-
+UpdateInfo.h
+-
+
+../include/initium_novum/World.h
+GameHandler.h
+../include/initium_novum/GameHandler.h
+Entity.h
+../include/initium_novum/Entity.h
+
 ../include/typedefs.h
 
 /home/rokner/Programming/FGL/src/Application.cpp
+iostream
+-
 Application.h
 /home/rokner/Programming/FGL/src/Application.h
 
@@ -48,12 +76,44 @@ FloatingNetwork.h
 GameHandler.h
 /home/rokner/Programming/FGL/src/GameHandler.h
 
+/home/rokner/Programming/FGL/src/MathHelpers.cpp
+MathHelpers.h
+/home/rokner/Programming/FGL/src/MathHelpers.h
+
 /home/rokner/Programming/FGL/src/UpdateInfo.cpp
 UpdateInfo.h
 /home/rokner/Programming/FGL/src/UpdateInfo.h
 
+/home/rokner/Programming/FGL/src/initium_novum/BasicFood.cpp
+MathHelpers.h
+/home/rokner/Programming/FGL/src/initium_novum/MathHelpers.h
+initium_novum/BasicFood.h
+/home/rokner/Programming/FGL/src/initium_novum/initium_novum/BasicFood.h
+
+/home/rokner/Programming/FGL/src/initium_novum/BasicFoodGenerator.cpp
+MathHelpers.h
+/home/rokner/Programming/FGL/src/initium_novum/MathHelpers.h
+initium_novum/BasicFood.h
+/home/rokner/Programming/FGL/src/initium_novum/initium_novum/BasicFood.h
+initium_novum/BasicFoodGenerator.h
+/home/rokner/Programming/FGL/src/initium_novum/initium_novum/BasicFoodGenerator.h
+initium_novum/World.h
+/home/rokner/Programming/FGL/src/initium_novum/initium_novum/World.h
+
+/home/rokner/Programming/FGL/src/initium_novum/Entity.cpp
+initium_novum/Entity.h
+/home/rokner/Programming/FGL/src/initium_novum/initium_novum/Entity.h
+
+/home/rokner/Programming/FGL/src/initium_novum/World.cpp
+initium_novum/BasicFoodGenerator.h
+-
+initium_novum/World.h
+/home/rokner/Programming/FGL/src/initium_novum/initium_novum/World.h
+
 /home/rokner/Programming/FGL/src/main.cpp
 FloatingNetwork.h
+-
+initium_novum/World.h
 -
 Application.h
 /home/rokner/Programming/FGL/src/Application.h
