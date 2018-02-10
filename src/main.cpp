@@ -13,7 +13,7 @@ int main() {
     auto *application = new Application(config);
 
     sf::Rect<int> area(0, 0, config.windowWidth, config.windowHeight);
-    auto *network = new FloatingNetwork(area, 300, 30);
+    auto *network = new FloatingNetwork(area, 140, 100);
 
     application->registerHandler(network);
 

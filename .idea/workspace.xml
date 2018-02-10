@@ -12,55 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f7eea09-5bf4-4960-b5e2-d315ca6784ed" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/MathHelpers.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/initium_novum/BasicFood.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/initium_novum/BasicFoodGenerator.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/initium_novum/Entity.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/initium_novum/World.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/MathHelpers.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/initium_novum/BasicFood.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/initium_novum/BasicFoodGenerator.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/initium_novum/Entity.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/initium_novum/World.cpp" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CMakeCCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CMakeCXXCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CMakeSystem.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CompilerIdC/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.7.2/CompilerIdCXX/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/src/Application.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/src/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FGL.dir/src/main.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FGL" afterPath="$PROJECT_DIR$/cmake-build-debug/FGL" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FGL.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/FGL.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/include/Application.h" afterPath="$PROJECT_DIR$/include/Application.h" />
-      <change beforePath="$PROJECT_DIR$/include/UpdateInfo.h" afterPath="$PROJECT_DIR$/include/UpdateInfo.h" />
-      <change beforePath="$PROJECT_DIR$/src/Application.cpp" afterPath="$PROJECT_DIR$/src/Application.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/FloatingNetwork.cpp" afterPath="$PROJECT_DIR$/src/FloatingNetwork.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/UpdateInfo.cpp" afterPath="$PROJECT_DIR$/src/UpdateInfo.cpp" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -74,7 +25,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Application.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Application.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
@@ -86,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
@@ -503,15 +454,16 @@
       <workItem from="1515512433738" duration="275000" />
       <workItem from="1515512834014" duration="296000" />
       <workItem from="1515521120722" duration="675000" />
-      <workItem from="1518280684762" duration="3838000" />
+      <workItem from="1518280684762" duration="4011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44811000" />
+    <option name="totallyTimeSpent" value="44984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1364" y="5" width="1684" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18803419" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -519,10 +471,10 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17750826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17750826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -968,14 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Application.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -983,6 +927,14 @@
           <folding>
             <element signature="e#41#60#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
