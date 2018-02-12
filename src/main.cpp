@@ -13,18 +13,18 @@ int main() {
     auto *application = new Application(config);
 
     sf::Rect<int> area(0, 0, config.windowWidth, config.windowHeight);
-    auto *network = new FloatingNetwork(area, 140, 100);
+//    auto *network = new FloatingNetwork(area, 100, 150);
 
-    application->registerHandler(network);
+//    application->registerHandler(network);
 
-//    auto *world = new in::World(area);
-//
-//    application->registerHandler(world);
+    auto *world = new in::World(area);
+
+    application->registerHandler(world);
 
     int exitCode = application->run();
 
-//    delete world;
-    delete network;
+    delete world;
+//    delete network;
     delete application;
 
     return exitCode;

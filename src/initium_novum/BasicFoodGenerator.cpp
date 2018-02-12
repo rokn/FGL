@@ -23,11 +23,16 @@ sf::Vector2f in::BasicFoodGenerator::getPoint(std::size_t index) const {
 }
 
 void in::BasicFoodGenerator::update(const UpdateInfo &timeInfo) {
-    _currTime -= timeInfo.elapsedSeconds();
-
-    if(_currTime <= 0) {
-        reset();
-        generate();
+    float elapsedSeconds = timeInfo.elapsedSeconds();
+    while(elapsedSeconds > 0) {
+        if(_currTime < elapsedSeconds) {
+            elapsedSeconds -= _currTime;
+            reset();
+            generate();
+        } else {
+            _currTime -= elapsedSeconds;
+            break;
+        }
     }
 }
 
@@ -48,7 +53,4 @@ void in::BasicFoodGenerator::generate() {
 
 void in::BasicFoodGenerator::setWorld(in::World *world) {
     _world = world;
-    for (int i = 0; i < 3; ++i) {
-        generate();
-    }
 }

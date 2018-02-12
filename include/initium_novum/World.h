@@ -21,10 +21,16 @@ namespace in
         void draw(sf::RenderTarget &surface) override;
 
         void addEntity(Entity* entity);
+        void removeEntity(Entity* entity);
 
     private:
         std::vector<Entity*> _entities;
+        std::vector<Entity*> _toAdd;
+        std::vector<Entity*> _toRemove;
         sf::Rect<int> _area;
+
+        void addNewEntities();
+        void removeOldEntities();
     };
 }
 

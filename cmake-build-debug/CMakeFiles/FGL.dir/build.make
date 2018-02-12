@@ -81,9 +81,33 @@ CMakeFiles/FGL.dir/src/Application.cpp.o.provides: CMakeFiles/FGL.dir/src/Applic
 CMakeFiles/FGL.dir/src/Application.cpp.o.provides.build: CMakeFiles/FGL.dir/src/Application.cpp.o
 
 
+CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o: CMakeFiles/FGL.dir/flags.make
+CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o: ../src/CollectionHelpers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o -c /home/rokner/Programming/FGL/src/CollectionHelpers.cpp
+
+CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rokner/Programming/FGL/src/CollectionHelpers.cpp > CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.i
+
+CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rokner/Programming/FGL/src/CollectionHelpers.cpp -o CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.s
+
+CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o.requires:
+
+.PHONY : CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o.requires
+
+CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o.provides: CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o.requires
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o.provides.build
+.PHONY : CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o.provides
+
+CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o.provides.build: CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o
+
+
 CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.o: CMakeFiles/FGL.dir/flags.make
 CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.o: ../src/FloatingNetwork.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.o -c /home/rokner/Programming/FGL/src/FloatingNetwork.cpp
 
 CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.i: cmake_force
@@ -107,7 +131,7 @@ CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.o.provides.build: CMakeFiles/FGL.dir/
 
 CMakeFiles/FGL.dir/src/GameHandler.cpp.o: CMakeFiles/FGL.dir/flags.make
 CMakeFiles/FGL.dir/src/GameHandler.cpp.o: ../src/GameHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FGL.dir/src/GameHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FGL.dir/src/GameHandler.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FGL.dir/src/GameHandler.cpp.o -c /home/rokner/Programming/FGL/src/GameHandler.cpp
 
 CMakeFiles/FGL.dir/src/GameHandler.cpp.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/FGL.dir/src/GameHandler.cpp.o.provides.build: CMakeFiles/FGL.dir/src/
 
 CMakeFiles/FGL.dir/src/MathHelpers.cpp.o: CMakeFiles/FGL.dir/flags.make
 CMakeFiles/FGL.dir/src/MathHelpers.cpp.o: ../src/MathHelpers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FGL.dir/src/MathHelpers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FGL.dir/src/MathHelpers.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FGL.dir/src/MathHelpers.cpp.o -c /home/rokner/Programming/FGL/src/MathHelpers.cpp
 
 CMakeFiles/FGL.dir/src/MathHelpers.cpp.i: cmake_force
@@ -155,7 +179,7 @@ CMakeFiles/FGL.dir/src/MathHelpers.cpp.o.provides.build: CMakeFiles/FGL.dir/src/
 
 CMakeFiles/FGL.dir/src/UpdateInfo.cpp.o: CMakeFiles/FGL.dir/flags.make
 CMakeFiles/FGL.dir/src/UpdateInfo.cpp.o: ../src/UpdateInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FGL.dir/src/UpdateInfo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FGL.dir/src/UpdateInfo.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FGL.dir/src/UpdateInfo.cpp.o -c /home/rokner/Programming/FGL/src/UpdateInfo.cpp
 
 CMakeFiles/FGL.dir/src/UpdateInfo.cpp.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/FGL.dir/src/UpdateInfo.cpp.o.provides.build: CMakeFiles/FGL.dir/src/U
 
 CMakeFiles/FGL.dir/src/initium_novum/BasicFood.cpp.o: CMakeFiles/FGL.dir/flags.make
 CMakeFiles/FGL.dir/src/initium_novum/BasicFood.cpp.o: ../src/initium_novum/BasicFood.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FGL.dir/src/initium_novum/BasicFood.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FGL.dir/src/initium_novum/BasicFood.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FGL.dir/src/initium_novum/BasicFood.cpp.o -c /home/rokner/Programming/FGL/src/initium_novum/BasicFood.cpp
 
 CMakeFiles/FGL.dir/src/initium_novum/BasicFood.cpp.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/FGL.dir/src/initium_novum/BasicFood.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/FGL.dir/src/initium_novum/BasicFoodGenerator.cpp.o: CMakeFiles/FGL.dir/flags.make
 CMakeFiles/FGL.dir/src/initium_novum/BasicFoodGenerator.cpp.o: ../src/initium_novum/BasicFoodGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FGL.dir/src/initium_novum/BasicFoodGenerator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FGL.dir/src/initium_novum/BasicFoodGenerator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FGL.dir/src/initium_novum/BasicFoodGenerator.cpp.o -c /home/rokner/Programming/FGL/src/initium_novum/BasicFoodGenerator.cpp
 
 CMakeFiles/FGL.dir/src/initium_novum/BasicFoodGenerator.cpp.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/FGL.dir/src/initium_novum/BasicFoodGenerator.cpp.o.provides.build: CM
 
 CMakeFiles/FGL.dir/src/initium_novum/Entity.cpp.o: CMakeFiles/FGL.dir/flags.make
 CMakeFiles/FGL.dir/src/initium_novum/Entity.cpp.o: ../src/initium_novum/Entity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FGL.dir/src/initium_novum/Entity.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FGL.dir/src/initium_novum/Entity.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FGL.dir/src/initium_novum/Entity.cpp.o -c /home/rokner/Programming/FGL/src/initium_novum/Entity.cpp
 
 CMakeFiles/FGL.dir/src/initium_novum/Entity.cpp.i: cmake_force
@@ -251,7 +275,7 @@ CMakeFiles/FGL.dir/src/initium_novum/Entity.cpp.o.provides.build: CMakeFiles/FGL
 
 CMakeFiles/FGL.dir/src/initium_novum/World.cpp.o: CMakeFiles/FGL.dir/flags.make
 CMakeFiles/FGL.dir/src/initium_novum/World.cpp.o: ../src/initium_novum/World.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FGL.dir/src/initium_novum/World.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FGL.dir/src/initium_novum/World.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FGL.dir/src/initium_novum/World.cpp.o -c /home/rokner/Programming/FGL/src/initium_novum/World.cpp
 
 CMakeFiles/FGL.dir/src/initium_novum/World.cpp.i: cmake_force
@@ -275,7 +299,7 @@ CMakeFiles/FGL.dir/src/initium_novum/World.cpp.o.provides.build: CMakeFiles/FGL.
 
 CMakeFiles/FGL.dir/src/main.cpp.o: CMakeFiles/FGL.dir/flags.make
 CMakeFiles/FGL.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FGL.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FGL.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FGL.dir/src/main.cpp.o -c /home/rokner/Programming/FGL/src/main.cpp
 
 CMakeFiles/FGL.dir/src/main.cpp.i: cmake_force
@@ -300,6 +324,7 @@ CMakeFiles/FGL.dir/src/main.cpp.o.provides.build: CMakeFiles/FGL.dir/src/main.cp
 # Object files for target FGL
 FGL_OBJECTS = \
 "CMakeFiles/FGL.dir/src/Application.cpp.o" \
+"CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o" \
 "CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.o" \
 "CMakeFiles/FGL.dir/src/GameHandler.cpp.o" \
 "CMakeFiles/FGL.dir/src/MathHelpers.cpp.o" \
@@ -314,6 +339,7 @@ FGL_OBJECTS = \
 FGL_EXTERNAL_OBJECTS =
 
 FGL: CMakeFiles/FGL.dir/src/Application.cpp.o
+FGL: CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o
 FGL: CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.o
 FGL: CMakeFiles/FGL.dir/src/GameHandler.cpp.o
 FGL: CMakeFiles/FGL.dir/src/MathHelpers.cpp.o
@@ -325,7 +351,7 @@ FGL: CMakeFiles/FGL.dir/src/initium_novum/World.cpp.o
 FGL: CMakeFiles/FGL.dir/src/main.cpp.o
 FGL: CMakeFiles/FGL.dir/build.make
 FGL: CMakeFiles/FGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable FGL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rokner/Programming/FGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable FGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FGL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -334,6 +360,7 @@ CMakeFiles/FGL.dir/build: FGL
 .PHONY : CMakeFiles/FGL.dir/build
 
 CMakeFiles/FGL.dir/requires: CMakeFiles/FGL.dir/src/Application.cpp.o.requires
+CMakeFiles/FGL.dir/requires: CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o.requires
 CMakeFiles/FGL.dir/requires: CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.o.requires
 CMakeFiles/FGL.dir/requires: CMakeFiles/FGL.dir/src/GameHandler.cpp.o.requires
 CMakeFiles/FGL.dir/requires: CMakeFiles/FGL.dir/src/MathHelpers.cpp.o.requires

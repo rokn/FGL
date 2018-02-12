@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FGL.dir/src/Application.cpp.o"
+  "CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o"
   "CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.o"
   "CMakeFiles/FGL.dir/src/GameHandler.cpp.o"
   "CMakeFiles/FGL.dir/src/MathHelpers.cpp.o"

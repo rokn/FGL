@@ -92,7 +92,7 @@ NetworkObject::NetworkObject(const sf::Rect<int> &area) {
 
 void NetworkObject::generateVelocity() {
     float angle = (float) ((rand() / (float)RAND_MAX) * 2.0f * M_PI);
-    float speed = rand() % 60 + 20;
+    float speed = rand() % 40 + 20;
     velocity.x = (float) (cos(angle) * speed);
     velocity.y = (float) (sin(angle) * speed);
 }

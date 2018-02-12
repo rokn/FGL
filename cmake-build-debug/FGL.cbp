@@ -91,6 +91,9 @@
 		<Unit filename="/home/rokner/Programming/FGL/include/Application.h">
 			<Option target="FGL"/>
 		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/CollectionHelpers.h">
+			<Option target="FGL"/>
+		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/include/Config.h">
 			<Option target="FGL"/>
 		</Unit>
@@ -122,6 +125,9 @@
 			<Option target="FGL"/>
 		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/src/Application.cpp">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/CollectionHelpers.cpp">
 			<Option target="FGL"/>
 		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/src/FloatingNetwork.cpp">

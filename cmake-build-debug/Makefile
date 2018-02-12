@@ -150,6 +150,33 @@ src/Application.cpp.s:
 	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/Application.cpp.s
 .PHONY : src/Application.cpp.s
 
+src/CollectionHelpers.o: src/CollectionHelpers.cpp.o
+
+.PHONY : src/CollectionHelpers.o
+
+# target to build an object file
+src/CollectionHelpers.cpp.o:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.o
+.PHONY : src/CollectionHelpers.cpp.o
+
+src/CollectionHelpers.i: src/CollectionHelpers.cpp.i
+
+.PHONY : src/CollectionHelpers.i
+
+# target to preprocess a source file
+src/CollectionHelpers.cpp.i:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.i
+.PHONY : src/CollectionHelpers.cpp.i
+
+src/CollectionHelpers.s: src/CollectionHelpers.cpp.s
+
+.PHONY : src/CollectionHelpers.s
+
+# target to generate assembly for a file
+src/CollectionHelpers.cpp.s:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.s
+.PHONY : src/CollectionHelpers.cpp.s
+
 src/FloatingNetwork.o: src/FloatingNetwork.cpp.o
 
 .PHONY : src/FloatingNetwork.o
@@ -405,6 +432,9 @@ help:
 	@echo "... src/Application.o"
 	@echo "... src/Application.i"
 	@echo "... src/Application.s"
+	@echo "... src/CollectionHelpers.o"
+	@echo "... src/CollectionHelpers.i"
+	@echo "... src/CollectionHelpers.s"
 	@echo "... src/FloatingNetwork.o"
 	@echo "... src/FloatingNetwork.i"
 	@echo "... src/FloatingNetwork.s"

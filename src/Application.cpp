@@ -6,8 +6,9 @@
 #include "Application.h"
 
 Application::Application(const Config &config):
-//    _clearColor(sf::Color(100, 149, 237)) //Cornflower Blue
-    _clearColor(sf::Color(50,50,50)) //Cornflower Blue
+    _clearColor(sf::Color(100, 149, 237)) //Cornflower Blue
+//    _clearColor(sf::Color(50,50,50)) //Cornflower Blue
+//    _clearColor(sf::Color::Transparent) //Cornflower Blue
 {
     sf::ContextSettings settings;
     settings.antialiasingLevel = config.antialiasLevel;
