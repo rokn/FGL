@@ -94,10 +94,16 @@
 		<Unit filename="/home/rokner/Programming/FGL/include/CollectionHelpers.h">
 			<Option target="FGL"/>
 		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/Complex.h">
+			<Option target="FGL"/>
+		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/include/Config.h">
 			<Option target="FGL"/>
 		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/include/FloatingNetwork.h">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/FractalGen.h">
 			<Option target="FGL"/>
 		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/include/GameHandler.h">
@@ -107,6 +113,12 @@
 			<Option target="FGL"/>
 		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/include/UpdateInfo.h">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/deconstruct/ParticleBuilder.h">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/include/deconstruct/ParticleSystem.h">
 			<Option target="FGL"/>
 		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/include/initium_novum/BasicFood.h">
@@ -130,7 +142,13 @@
 		<Unit filename="/home/rokner/Programming/FGL/src/CollectionHelpers.cpp">
 			<Option target="FGL"/>
 		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/Complex.cpp">
+			<Option target="FGL"/>
+		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/src/FloatingNetwork.cpp">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/FractalGen.cpp">
 			<Option target="FGL"/>
 		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/src/GameHandler.cpp">
@@ -140,6 +158,12 @@
 			<Option target="FGL"/>
 		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/src/UpdateInfo.cpp">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/deconstruct/ParticleBuilder.cpp">
+			<Option target="FGL"/>
+		</Unit>
+		<Unit filename="/home/rokner/Programming/FGL/src/deconstruct/ParticleSystem.cpp">
 			<Option target="FGL"/>
 		</Unit>
 		<Unit filename="/home/rokner/Programming/FGL/src/initium_novum/BasicFood.cpp">

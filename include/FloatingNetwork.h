@@ -10,15 +10,15 @@
 
 class NetworkObject {
 public:
-    NetworkObject(const sf::Rect<int> &area);
+    NetworkObject(const sf::Rect<sf::Uint32> &area);
     ~NetworkObject();
-    void update(const UpdateInfo &info, const sf::Rect<int> &area);
+    void update(const UpdateInfo &info, const sf::Rect<sf::Uint32> &area);
     const sf::Shape& getShape() const;
 private:
     sf::Shape* shape;
     sf::Vector2f velocity;
 
-    void reset(const sf::Rect<int> &area);
+    void reset(const sf::Rect<sf::Uint32> &area);
 
     void generateVelocity();
 };
@@ -45,12 +45,12 @@ private:
 
 class FloatingNetwork : public GameHandler {
 public:
-    FloatingNetwork(const sf::Rect<int>& area, float proximity, uint objectCount);
+    FloatingNetwork(const sf::Rect<sf::Uint32> &area, float proximity, uint objectCount);
     ~FloatingNetwork();
     void update(const UpdateInfo &info) override;
     void draw(sf::RenderTarget &surface) override;
 private:
-    sf::Rect<int> _area;
+    sf::Rect<sf::Uint32> _area;
     float _proximity;
     std::vector<NetworkObject*> _objects;
     std::vector<Line> _lines;

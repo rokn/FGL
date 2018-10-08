@@ -16,6 +16,10 @@ Config.h
 GameHandler.h
 ../include/GameHandler.h
 
+../include/CollectionHelpers.h
+
+../include/Complex.h
+
 ../include/Config.h
 typedefs.h
 ../include/typedefs.h
@@ -23,6 +27,12 @@ typedefs.h
 ../include/FloatingNetwork.h
 GameHandler.h
 ../include/GameHandler.h
+
+../include/FractalGen.h
+GameHandler.h
+../include/GameHandler.h
+Complex.h
+../include/Complex.h
 
 ../include/GameHandler.h
 SFML/Graphics.hpp
@@ -34,6 +44,16 @@ UpdateInfo.h
 
 ../include/UpdateInfo.h
 SFML/System.hpp
+-
+
+../include/deconstruct/ParticleBuilder.h
+SFML/Graphics.hpp
+-
+
+../include/deconstruct/ParticleSystem.h
+SFML/Graphics.hpp
+-
+GameHandler.h
 -
 
 ../include/initium_novum/BasicFood.h
@@ -68,9 +88,27 @@ iostream
 Application.h
 /home/rokner/Programming/FGL/src/Application.h
 
+/home/rokner/Programming/FGL/src/CollectionHelpers.cpp
+CollectionHelpers.h
+/home/rokner/Programming/FGL/src/CollectionHelpers.h
+
+/home/rokner/Programming/FGL/src/Complex.cpp
+Complex.h
+/home/rokner/Programming/FGL/src/Complex.h
+
 /home/rokner/Programming/FGL/src/FloatingNetwork.cpp
 FloatingNetwork.h
 /home/rokner/Programming/FGL/src/FloatingNetwork.h
+
+/home/rokner/Programming/FGL/src/FractalGen.cpp
+iostream
+-
+Complex.h
+-
+FractalGen.h
+/home/rokner/Programming/FGL/src/FractalGen.h
+omp.h
+-
 
 /home/rokner/Programming/FGL/src/GameHandler.cpp
 GameHandler.h
@@ -84,6 +122,18 @@ MathHelpers.h
 UpdateInfo.h
 /home/rokner/Programming/FGL/src/UpdateInfo.h
 
+/home/rokner/Programming/FGL/src/deconstruct/ParticleBuilder.cpp
+deconstruct/ParticleSystem.h
+-
+deconstruct/ParticleBuilder.h
+/home/rokner/Programming/FGL/src/deconstruct/deconstruct/ParticleBuilder.h
+
+/home/rokner/Programming/FGL/src/deconstruct/ParticleSystem.cpp
+deconstruct/ParticleSystem.h
+/home/rokner/Programming/FGL/src/deconstruct/deconstruct/ParticleSystem.h
+deconstruct/ParticleBuilder.h
+/home/rokner/Programming/FGL/src/deconstruct/deconstruct/ParticleBuilder.h
+
 /home/rokner/Programming/FGL/src/initium_novum/BasicFood.cpp
 MathHelpers.h
 /home/rokner/Programming/FGL/src/initium_novum/MathHelpers.h
@@ -91,6 +141,8 @@ initium_novum/BasicFood.h
 /home/rokner/Programming/FGL/src/initium_novum/initium_novum/BasicFood.h
 
 /home/rokner/Programming/FGL/src/initium_novum/BasicFoodGenerator.cpp
+iostream
+-
 MathHelpers.h
 /home/rokner/Programming/FGL/src/initium_novum/MathHelpers.h
 initium_novum/BasicFood.h
@@ -109,14 +161,18 @@ initium_novum/BasicFoodGenerator.h
 -
 initium_novum/World.h
 /home/rokner/Programming/FGL/src/initium_novum/initium_novum/World.h
-algorithm
--
 
 /home/rokner/Programming/FGL/src/main.cpp
 FloatingNetwork.h
--
+/home/rokner/Programming/FGL/src/FloatingNetwork.h
+FractalGen.h
+/home/rokner/Programming/FGL/src/FractalGen.h
 initium_novum/World.h
--
+/home/rokner/Programming/FGL/src/initium_novum/World.h
+deconstruct/ParticleSystem.h
+/home/rokner/Programming/FGL/src/deconstruct/ParticleSystem.h
+deconstruct/ParticleBuilder.h
+/home/rokner/Programming/FGL/src/deconstruct/ParticleBuilder.h
 Application.h
 /home/rokner/Programming/FGL/src/Application.h
 

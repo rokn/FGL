@@ -2,6 +2,7 @@
 // Created by rokner on 12/25/17.
 //
 
+#include <iostream>
 #include "MathHelpers.h"
 #include "initium_novum/BasicFood.h"
 #include "initium_novum/BasicFoodGenerator.h"
@@ -42,7 +43,7 @@ void in::BasicFoodGenerator::reset() {
 
 void in::BasicFoodGenerator::generate() {
     if(_world != nullptr) {
-        float amount = MathHelpers::lerp(BasicFood::MIN_AMOUNT, BasicFood::MAX_AMOUNT, rand()/RAND_MAX);
+        float amount = MathHelpers::lerp(BasicFood::MIN_AMOUNT, BasicFood::MAX_AMOUNT, (float)rand()/RAND_MAX);
         auto *food = new BasicFood(amount);
         int x = rand() % _area.width + _area.left;
         int y = rand() % _area.height + _area.top;

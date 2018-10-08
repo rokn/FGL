@@ -4,7 +4,7 @@
 
 #include "FloatingNetwork.h"
 
-FloatingNetwork::FloatingNetwork(const sf::Rect<int> &area, float proximity, uint objectCount):
+FloatingNetwork::FloatingNetwork(const sf::Rect<sf::Uint32> &area, float proximity, uint objectCount):
         _area(area), _proximity(proximity*proximity)
 {
     generateObjects(objectCount);
@@ -78,7 +78,7 @@ float FloatingNetwork::getDistance(const sf::Vector2f &from, const sf::Vector2f 
     return (diffX*diffX + diffY*diffY);
 }
 
-NetworkObject::NetworkObject(const sf::Rect<int> &area) {
+NetworkObject::NetworkObject(const sf::Rect<sf::Uint32> &area) {
     float radius = 8;
     shape = new sf::CircleShape(radius);
     shape->setFillColor(sf::Color::White);
@@ -101,15 +101,15 @@ NetworkObject::~NetworkObject() {
     delete shape;
 }
 
-void NetworkObject::update(const UpdateInfo &info, const sf::Rect<int> &area) {
+void NetworkObject::update(const UpdateInfo &info, const sf::Rect<sf::Uint32> &area) {
     shape->move(velocity * info.elapsedSeconds());
 
-    if(!area.intersects(sf::Rect<int>(shape->getGlobalBounds()))) {
+    if(!area.intersects(sf::Rect<sf::Uint32>(shape->getGlobalBounds()))) {
         reset(area);
     }
 }
 
-void NetworkObject::reset(const sf::Rect<int> &area) {
+void NetworkObject::reset(const sf::Rect<sf::Uint32> &area) {
     float x,y;
     if(rand()%2) {
         if(rand()%2) {

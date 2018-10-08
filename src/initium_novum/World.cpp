@@ -4,14 +4,13 @@
 
 #include <initium_novum/BasicFoodGenerator.h>
 #include "initium_novum/World.h"
-#include <algorithm>
 
 in::World::World(sf::Rect<int> area):
 _area(area)
 {
     registerAsHandler(UPDATE_HANDLER);
     registerAsHandler(DRAW_HANDLER);
-    BasicFoodGenerator *foodGenerator = new BasicFoodGenerator(area, 0.01f, 0.02f);
+    BasicFoodGenerator *foodGenerator = new BasicFoodGenerator(area, 1.f, 2.f);
     foodGenerator->setWorld(this);
     addEntity(foodGenerator);
 }

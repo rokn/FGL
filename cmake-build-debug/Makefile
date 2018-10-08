@@ -177,6 +177,33 @@ src/CollectionHelpers.cpp.s:
 	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/CollectionHelpers.cpp.s
 .PHONY : src/CollectionHelpers.cpp.s
 
+src/Complex.o: src/Complex.cpp.o
+
+.PHONY : src/Complex.o
+
+# target to build an object file
+src/Complex.cpp.o:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/Complex.cpp.o
+.PHONY : src/Complex.cpp.o
+
+src/Complex.i: src/Complex.cpp.i
+
+.PHONY : src/Complex.i
+
+# target to preprocess a source file
+src/Complex.cpp.i:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/Complex.cpp.i
+.PHONY : src/Complex.cpp.i
+
+src/Complex.s: src/Complex.cpp.s
+
+.PHONY : src/Complex.s
+
+# target to generate assembly for a file
+src/Complex.cpp.s:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/Complex.cpp.s
+.PHONY : src/Complex.cpp.s
+
 src/FloatingNetwork.o: src/FloatingNetwork.cpp.o
 
 .PHONY : src/FloatingNetwork.o
@@ -203,6 +230,33 @@ src/FloatingNetwork.s: src/FloatingNetwork.cpp.s
 src/FloatingNetwork.cpp.s:
 	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/FloatingNetwork.cpp.s
 .PHONY : src/FloatingNetwork.cpp.s
+
+src/FractalGen.o: src/FractalGen.cpp.o
+
+.PHONY : src/FractalGen.o
+
+# target to build an object file
+src/FractalGen.cpp.o:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/FractalGen.cpp.o
+.PHONY : src/FractalGen.cpp.o
+
+src/FractalGen.i: src/FractalGen.cpp.i
+
+.PHONY : src/FractalGen.i
+
+# target to preprocess a source file
+src/FractalGen.cpp.i:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/FractalGen.cpp.i
+.PHONY : src/FractalGen.cpp.i
+
+src/FractalGen.s: src/FractalGen.cpp.s
+
+.PHONY : src/FractalGen.s
+
+# target to generate assembly for a file
+src/FractalGen.cpp.s:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/FractalGen.cpp.s
+.PHONY : src/FractalGen.cpp.s
 
 src/GameHandler.o: src/GameHandler.cpp.o
 
@@ -284,6 +338,60 @@ src/UpdateInfo.s: src/UpdateInfo.cpp.s
 src/UpdateInfo.cpp.s:
 	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/UpdateInfo.cpp.s
 .PHONY : src/UpdateInfo.cpp.s
+
+src/deconstruct/ParticleBuilder.o: src/deconstruct/ParticleBuilder.cpp.o
+
+.PHONY : src/deconstruct/ParticleBuilder.o
+
+# target to build an object file
+src/deconstruct/ParticleBuilder.cpp.o:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/deconstruct/ParticleBuilder.cpp.o
+.PHONY : src/deconstruct/ParticleBuilder.cpp.o
+
+src/deconstruct/ParticleBuilder.i: src/deconstruct/ParticleBuilder.cpp.i
+
+.PHONY : src/deconstruct/ParticleBuilder.i
+
+# target to preprocess a source file
+src/deconstruct/ParticleBuilder.cpp.i:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/deconstruct/ParticleBuilder.cpp.i
+.PHONY : src/deconstruct/ParticleBuilder.cpp.i
+
+src/deconstruct/ParticleBuilder.s: src/deconstruct/ParticleBuilder.cpp.s
+
+.PHONY : src/deconstruct/ParticleBuilder.s
+
+# target to generate assembly for a file
+src/deconstruct/ParticleBuilder.cpp.s:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/deconstruct/ParticleBuilder.cpp.s
+.PHONY : src/deconstruct/ParticleBuilder.cpp.s
+
+src/deconstruct/ParticleSystem.o: src/deconstruct/ParticleSystem.cpp.o
+
+.PHONY : src/deconstruct/ParticleSystem.o
+
+# target to build an object file
+src/deconstruct/ParticleSystem.cpp.o:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/deconstruct/ParticleSystem.cpp.o
+.PHONY : src/deconstruct/ParticleSystem.cpp.o
+
+src/deconstruct/ParticleSystem.i: src/deconstruct/ParticleSystem.cpp.i
+
+.PHONY : src/deconstruct/ParticleSystem.i
+
+# target to preprocess a source file
+src/deconstruct/ParticleSystem.cpp.i:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/deconstruct/ParticleSystem.cpp.i
+.PHONY : src/deconstruct/ParticleSystem.cpp.i
+
+src/deconstruct/ParticleSystem.s: src/deconstruct/ParticleSystem.cpp.s
+
+.PHONY : src/deconstruct/ParticleSystem.s
+
+# target to generate assembly for a file
+src/deconstruct/ParticleSystem.cpp.s:
+	$(MAKE) -f CMakeFiles/FGL.dir/build.make CMakeFiles/FGL.dir/src/deconstruct/ParticleSystem.cpp.s
+.PHONY : src/deconstruct/ParticleSystem.cpp.s
 
 src/initium_novum/BasicFood.o: src/initium_novum/BasicFood.cpp.o
 
@@ -435,9 +543,15 @@ help:
 	@echo "... src/CollectionHelpers.o"
 	@echo "... src/CollectionHelpers.i"
 	@echo "... src/CollectionHelpers.s"
+	@echo "... src/Complex.o"
+	@echo "... src/Complex.i"
+	@echo "... src/Complex.s"
 	@echo "... src/FloatingNetwork.o"
 	@echo "... src/FloatingNetwork.i"
 	@echo "... src/FloatingNetwork.s"
+	@echo "... src/FractalGen.o"
+	@echo "... src/FractalGen.i"
+	@echo "... src/FractalGen.s"
 	@echo "... src/GameHandler.o"
 	@echo "... src/GameHandler.i"
 	@echo "... src/GameHandler.s"
@@ -447,6 +561,12 @@ help:
 	@echo "... src/UpdateInfo.o"
 	@echo "... src/UpdateInfo.i"
 	@echo "... src/UpdateInfo.s"
+	@echo "... src/deconstruct/ParticleBuilder.o"
+	@echo "... src/deconstruct/ParticleBuilder.i"
+	@echo "... src/deconstruct/ParticleBuilder.s"
+	@echo "... src/deconstruct/ParticleSystem.o"
+	@echo "... src/deconstruct/ParticleSystem.i"
+	@echo "... src/deconstruct/ParticleSystem.s"
 	@echo "... src/initium_novum/BasicFood.o"
 	@echo "... src/initium_novum/BasicFood.i"
 	@echo "... src/initium_novum/BasicFood.s"

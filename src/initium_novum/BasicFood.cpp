@@ -8,8 +8,8 @@
 float in::BasicFood::MIN_AMOUNT = 5;
 float in::BasicFood::MAX_AMOUNT = 15;
 
-float in::BasicFood::MIN_RADIUS = 5;
-float in::BasicFood::MAX_RADIUS = 15;
+float in::BasicFood::MIN_RADIUS = 3;
+float in::BasicFood::MAX_RADIUS = 8;
 
 in::BasicFood::BasicFood(float amount) :
 shape(getRadius(amount)){
@@ -29,6 +29,6 @@ void in::BasicFood::update(const UpdateInfo &timeInfo) {
 }
 
 float in::BasicFood::getRadius(float amount) {
-    float mod = amount / (MAX_AMOUNT - MIN_AMOUNT);
+    float mod = (amount - MIN_AMOUNT) / (MAX_AMOUNT - MIN_AMOUNT);
     return MathHelpers::lerp(MIN_RADIUS, MAX_RADIUS, mod);
 }

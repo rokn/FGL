@@ -34,7 +34,6 @@ int Application::run() {
         currentTime = elapsedClock.restart().asSeconds();
         accumulator += currentTime;
         fps = 1.f / currentTime;
-        std::cout << "FPS: " << fps << std::endl;
 
 
         while(accumulator >= deltaTime) {
